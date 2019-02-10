@@ -33,6 +33,27 @@
 			remoteGlobalIDString = C48DD356220DE0A900427A2A;
 			remoteInfo = Good_in_my_Hood;
 		};
+		C48DD3D02210AEC800427A2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48DD3CA2210AEC300427A2A /* Good_in_my_hood_v2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C48DD3952210AEBE00427A2A;
+			remoteInfo = Good_in_my_hood_v2;
+		};
+		C48DD3D22210AEC800427A2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48DD3CA2210AEC300427A2A /* Good_in_my_hood_v2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C48DD3AD2210AEC300427A2A;
+			remoteInfo = Good_in_my_hood_v2Tests;
+		};
+		C48DD3D42210AEC800427A2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48DD3CA2210AEC300427A2A /* Good_in_my_hood_v2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C48DD3B82210AEC300427A2A;
+			remoteInfo = Good_in_my_hood_v2UITests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +72,7 @@
 		C48DD37C220DE0AD00427A2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C48DD3882210616400427A2A /* PATTERN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PATTERN.png; path = "../../../../../../Downloads/KIDS_WE CAN SAVE THE EARTH_PRODUCT/PATTERNS/WITHOUT BACKGROUND/PNG/PATTERN.png"; sourceTree = "<group>"; };
 		C48DD3892210616400427A2A /* Screen Shot 2019-02-10 at 1.39.13 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2019-02-10 at 1.39.13 PM.png"; path = "../../../../../../Desktop/Screen Shot 2019-02-10 at 1.39.13 PM.png"; sourceTree = "<group>"; };
+		C48DD3CA2210AEC300427A2A /* Good_in_my_hood_v2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Good_in_my_hood_v2.xcodeproj; path = Good_in_my_hood_v2/Good_in_my_hood_v2.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +123,7 @@
 		C48DD359220DE0A900427A2A /* Good_in_my_Hood */ = {
 			isa = PBXGroup;
 			children = (
+				C48DD3CA2210AEC300427A2A /* Good_in_my_hood_v2.xcodeproj */,
 				C48DD35A220DE0A900427A2A /* AppDelegate.swift */,
 				C48DD35C220DE0A900427A2A /* ViewController.swift */,
 				C48DD35E220DE0A900427A2A /* Main.storyboard */,
@@ -129,6 +152,16 @@
 				C48DD37C220DE0AD00427A2A /* Info.plist */,
 			);
 			path = Good_in_my_HoodUITests;
+			sourceTree = "<group>";
+		};
+		C48DD3CB2210AEC300427A2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C48DD3D12210AEC800427A2A /* Good_in_my_hood_v2.app */,
+				C48DD3D32210AEC800427A2A /* Good_in_my_hood_v2Tests.xctest */,
+				C48DD3D52210AEC800427A2A /* Good_in_my_hood_v2UITests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +254,12 @@
 			mainGroup = C48DD34E220DE0A900427A2A;
 			productRefGroup = C48DD358220DE0A900427A2A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C48DD3CB2210AEC300427A2A /* Products */;
+					ProjectRef = C48DD3CA2210AEC300427A2A /* Good_in_my_hood_v2.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C48DD356220DE0A900427A2A /* Good_in_my_Hood */,
@@ -229,6 +268,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C48DD3D12210AEC800427A2A /* Good_in_my_hood_v2.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Good_in_my_hood_v2.app;
+			remoteRef = C48DD3D02210AEC800427A2A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C48DD3D32210AEC800427A2A /* Good_in_my_hood_v2Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Good_in_my_hood_v2Tests.xctest;
+			remoteRef = C48DD3D22210AEC800427A2A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C48DD3D52210AEC800427A2A /* Good_in_my_hood_v2UITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Good_in_my_hood_v2UITests.xctest;
+			remoteRef = C48DD3D42210AEC800427A2A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C48DD355220DE0A900427A2A /* Resources */ = {
